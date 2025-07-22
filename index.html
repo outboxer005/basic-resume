@@ -1,1 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gnana Sri Venkata Sai Bangaru • Portfolio</title>
+  <style>
+    :root {
+      --font-family-base: 'Segoe UI', Tahoma, sans-serif;
+      --font-size-base: 16px;
+      --line-height-base: 1.6;
+      --color-primary: #2c3e50;
+      --color-secondary: #3498db;
+      --color-background: #ecf0f1;
+      --color-text: #34495e;
+      --space-xs: 0.25rem;
+      --space-sm: 0.5rem;
+      --space-md: 1rem;
+      --space-lg: 2rem;
+      --corner-radius: 0.5rem;
+      --max-content-width: 800px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-family-base);
+      font-size: var(--font-size-base);
+      line-height: var(--line-height-base);
+      color: var(--color-text);
+      background: var(--color-background);
+      padding: var(--space-lg);
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: var(--max-content-width);
+      background: #fff;
+      padding: var(--space-lg);
+      border-radius: var(--corner-radius);
+      box-shadow: 0 0 var(--space-sm) rgba(0,0,0,0.1);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: var(--space-lg);
+    }
+
+    header h1 {
+      color: var(--color-primary);
+      font-size: 2rem;
+      margin-bottom: var(--space-sm);
+    }
+
+    header p {
+      font-style: italic;
+      color: var(--color-secondary);
+    }
+
+    section {
+      margin-bottom: var(--space-lg);
+    }
+
+    section h2 {
+      color: var(--color-primary);
+      font-size: 1.5rem;
+      margin-bottom: var(--space-sm);
+      border-bottom: 2px solid var(--color-secondary);
+      display: inline-block;
+      padding-bottom: var(--space-xs);
+    }
+
+    .flex-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-md);
+    }
+
+    .flex-col {
+      flex: 1 1 200px;
+    }
+
+    ul {
+      list-style: disc inside;
+    }
+
+    a {
+      color: var(--color-secondary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Gnana Sri Venkata Sai Bangaru</h1>
+      <p>3rd‑Year B.Tech CSE Student &amp; Python Intern at GenZix</p>
+    </header>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>📍 Karempudi, Palnadu (Dist.), AP, India</p>
+      <p>📞 +91 85200 62068 ✉️ <a href="mailto:gnanasri005@gmail.com">gnanasri005@gmail.com</a></p>
+      <p>💻 <a href="https://github.com/outboxer005" target="_blank">GitHub</a> 🧩 <a href="https://leetcode.com/u/outboxer005/" target="_blank">LeetCode</a></p>
+    </section>
+
+    <section id="summary">
+      <h2>Professional Summary</h2>
+      <p>
+        Passionate about building scalable applications and solving real‑life challenges with code. 
+        Seeking opportunities to learn, grow, and contribute as an engaged team member.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="flex-row">
+        <div class="flex-col">
+          <strong>Languages</strong>
+          <ul>
+            <li>C, Java, Python</li>
+            <li>HTML, CSS, JavaScript</li>
+          </ul>
+        </div>
+        <div class="flex-col">
+          <strong>Databases &amp; Tools</strong>
+          <ul>
+            <li>MySQL, Neo4J</li>
+            <li>Git/GitHub, VS Code, Colab, Jupyter</li>
+          </ul>
+        </div>
+        <div class="flex-col">
+          <strong>Certifications</strong>
+          <ul>
+            <li>NPTEL: Joy of Computing (Python)</li>
+            <li>NPTEL/Coursera: DSA in Java</li>
+            <li>NPTEL: Cloud Computing</li>
+            <li>Cambridge B2 in English (Jan 19, 2024)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div>
+        <h3>Python Intern, GenZix Company</h3>
+        <p><em>May 2024 – Present</em></p>
+        <ul>
+          <li>Worked on automating workflows with Python scripts.</li>
+          <li>Built small Flask apps to streamline internal tools.</li>
+          <li>Collaborated with senior developers on code reviews.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Python Intern, CodeSoft</h3>
+        <p><em>March 2024 – April 2024</em></p>
+        <ul>
+          <li>Developed Tkinter‑based tools for everyday automation.</li>
+          <li>Solved real‑life application challenges using Python.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>B.Tech in CSE with Research Honors</strong>, 
+          Vignan Foundation for Science, Technology &amp; Research 
+          (2023 – 2027) • CGPA: 8.5/10
+        </li>
+        <li>
+          <strong>Pre‑University Course</strong>, 
+          Rajiv Gandhi University of Knowledge &amp; Technology 
+          (2021 – 2023) • CGPA: 8.2/10
+        </li>
+        <li>
+          <strong>Secondary Education</strong>, Narayana E.M School 
+          (2020 – 2021) • Marks: 592/600
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div>
+        <h4>Email Validation System</h4>
+        <p>Python • Colab</p>
+        <ul>
+          <li>Validated email formats with regex and MX checks.</li>
+          <li>Integrated domain‑reputation API for higher accuracy.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Usage Analytics Dashboard</h4>
+        <p>Python, Flask, SQL, Pandas, Matplotlib, HTML</p>
+        <ul>
+          <li>Captured and stored user‑app usage in SQL.</li>
+          <li>Built live dashboards with Flask and interactive graphs.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="extracurricular">
+      <h2>Extra Curricular</h2>
+      <ul>
+        <li>Cambridge B2 Certificate in English Communication (CEFR B2)</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
 
